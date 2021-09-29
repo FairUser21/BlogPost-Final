@@ -1,0 +1,86 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+i  }
+} */
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80/1920x1080');
+  /* background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+a:hover{text-decoration:none}
+
+.card{
+  background-color: rgba(255, 255, 255, 0.4);
+ 
+}
+
+.bx-con{
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 50px;
+  border: #DFDFDF solid 1px;
+  border-radius: 4px;
+
+}
+.jumbotron{
+  /* background-color: blueviolet; */
+  background-image: url("https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px 0px 5px 5px ;
+}
+.cl{
+  color: rgb(204, 90, 233);
+  text-shadow:2px 2px 3px black;
+  font-size: 70px;
+}
+/* .card-body{
+  padding-left: 31px;
+  line-height: 1.6;
+} */
+
+.card-title{
+  font-size: 26px;
+}
